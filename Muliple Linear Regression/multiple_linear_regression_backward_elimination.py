@@ -7,7 +7,7 @@ Created on Sun Sep 17 11:35:23 2017
 import pandas as pd
 import numpy as np
 
-# Importing the Datset
+# Importing the Dataset
 dataset = pd.read_csv('50_Startups.csv')
 
 X = dataset.iloc[:, :-1].values
